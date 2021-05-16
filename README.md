@@ -48,9 +48,9 @@ About.js component is all about me any my skills. Please check my skills match t
 
 <img hight='300px' width='500px' src='./images/myskills.jpg'><br>
 Please give me a opportunity I am interested in both web and Android Deveopment.<br>
-I am best in desigining websites and good in React.js ,Javascript ,CSS. I  also know PHP and many other technologies like redux ,using of firebase firestore.<br>
+I am best in desigining websites and good in React.js ,HTML ,CSS. I  also know PHP and many other technologies like redux ,using of firebase firestore.<br>
 I am quick learner and hard worker. 
-<br>In the past 3 years I learned so many skills I am interested in making websites and Android Applications.
+<br>In the past 2 years I learned so many skills I am interested in making websites and Android Applications.
 
 <h4>-Thank you</h4>
 
