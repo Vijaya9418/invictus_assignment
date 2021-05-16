@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# React App Invictus Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>A word count Analyser<p>
+<h3>Firebase Hosted link</h3>
+<a href="https://invictus-assignment.web.app/"><h4>https://invictus-assignment.web.app/</h4></a>
 
-## Available Scripts
+#Components
+<h1>App.js</h1>
+It is a functionaly component.<br>
+First we stat with App.js here I added routing using "react-router-dom".<br>
+<img width='100px' src='./images/struct.jpg'><br>
+App.js also import Navbar.js component from componet/nav folder and set<br> on top of all components to visible in all pages.
+<br>
+It has 2 routs<br>
+/ and /about 2 routs are added to this simple app.<br>
+<h1>Home.js</h1>
+it is a class component.<br>
+/ will render Home.js component. I has the input form that allows used to enter input value of N and submit.<br>
+<img hight='300px' width='500px' src='./images/home.jpg'><br>
+in Home component on submit of the form it will pass data to the <h3>getwords()</h3>  function this fetch the data asynchronously using <strong>fetch().then()</strong>  methods<br>
+once the data is fetched it will set the state data value and then call <h3>GetTopWords()</h3> funciton.
+This funciton will update the state dictionary with top N frequency words.
+<h1>Test Cases 1: </h1>
+<p>Input: 2</p> output below image<br>
+<img hight='300px' width='500px' src='./images/case2.jpg'><br>
+<h1>Test Cases 2: </h1>
+<p>Input: 2</p> output below image<br>
+<img hight='300px' width='500px' src='./images/case5.jpg'><br>
+<h1>Test Cases 3: </h1>
+<p>Input: 12</p> output below image<br>
+<img hight='300px' width='500px' src='./images/case12.jpg'><br>
 
-In the project directory, you can run:
+<img hight='300px' width='500px' src='./images/case12a.jpg'><br>
+as the sate gets update React will automatically update the state every where which results in call of <br>
+<h1>Table.js</h1>
+it is a class component.<br>
+Table component it will create table using the data pased as props.
+<br><br>
+In Table this will receive the top N frequency words object in the form of props and crate a Table and display it to users.
 
-### `yarn start`
+<img hight='300px' width='500px' src='./images/aboutme.jpg'><br>
+<h1>Navbar.js</h1>
+it is a functional component.<br>
+It returns a nav bar that is build using bootstrap 4.
+<h1>About.js</h1>
+it is a class component.<br>
+About.js component is all about me any my skills. Please check my skills match this role really well.<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img hight='300px' width='500px' src='./images/myskills.jpg'><br>
+Please give me a opportunity I am interested in both web and Android Deveopment.<br>
+I am best in desigining websites and good in React.js ,Javascript ,CSS. I  also know PHP and many other technologies like redux ,using of firebase firestore.<br>
+I am quick learner and hard worker. 
+<br>In the past 3 years I learned so many skills I am interested in making websites and Android Applications.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h4>-Thank you</h4>
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
